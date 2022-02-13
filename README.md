@@ -21,3 +21,9 @@ stands for "proposal".
 
 You should be able to find their corresponding ES6 versions in the integrated
 package's description, or by their old name.
+
+### INSTALLATION
+
+Doom emacs:
+
+???
