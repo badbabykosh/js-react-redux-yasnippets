@@ -24,6 +24,16 @@ package's description, or by their old name.
 
 ### INSTALLATION
 
-Doom emacs:
 
-???
+The package can be installed from melpa.
+
+After you've successfully installed latest versions of **yasnippet** and **js-react-redux-yasnippets** the snippets should be available in all modes derived from js-mode
+
+**js-react-redux-yasnippets** will not register its snippets dir to yas-snippet-dirs automatically.
+
+```
+(use-package js-react-redux-yasnippets
+    :after yasnippet ;; will not work if not adding this line
+    )
+```
+After adding :after **yasnippet** as above, **js-react-redux-yasnippets** works.
