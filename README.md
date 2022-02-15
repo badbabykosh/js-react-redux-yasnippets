@@ -24,8 +24,12 @@ package's description, or by their old name.
 
 ### INSTALLATION
 
+Pre Req:
+step 1 - must have yasnippets installed...https://github.com/joaotavora/yasnippet
 
-The package can be installed from melpa.
+step 2 - install this pacakge
+
+This package can be installed from melpa.
 
 After you've successfully installed latest versions of **yasnippet** and **js-react-redux-yasnippets** the snippets should be available in all modes derived from js-mode
 
