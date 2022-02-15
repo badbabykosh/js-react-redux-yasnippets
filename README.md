@@ -31,9 +31,34 @@ NOTE: doomemacs already has this installed by default via init.el editor/snippet
 
 step 2 - install this pacakge
 
-This package can be installed from melpa.
+The package in this repo can be installed from melpa like so.
 
-After you've successfully installed latest versions of **yasnippet** and **js-react-redux-yasnippets** the snippets should be available in all modes derived from js-mode
+go to "M-x"... SPC + :
+
+at the M-x prompt type "package-install"
+
+M-x -> package-install. 
+
+look for ???
+
+After you've successfully installed latest versions of **yasnippet** and **js-react-redux-yasnippets** via melpa, the snippets should be available in all modes derived from js-mode
+
+Confirm yasnippets is installed in doomemacs...
+
+- go to M-x by pressing SPACEBAR + :
+- at the "M-x" prompt type yas
+
+You should see the following
+
+```
+M-x yas
+yas-about
+yas-expand
+yas-minor-mode
+...
+```
+Doomemacs snippets location
+???
 
 **js-react-redux-yasnippets** will not register its snippets dir to yas-snippet-dirs automatically.
 
