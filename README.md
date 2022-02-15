@@ -27,6 +27,8 @@ package's description, or by their old name.
 Pre Req:
 step 1 - must have yasnippets installed...https://github.com/joaotavora/yasnippet
 
+NOTE: doomemacs already has this installed by default via init.el editor/snippets
+
 step 2 - install this pacakge
 
 This package can be installed from melpa.
