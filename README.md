@@ -31,15 +31,15 @@ NOTE: doomemacs already has this installed by default via init.el editor/snippet
 
 step 2 - install this pacakge
 
-The package in this repo can be installed from melpa like so.
+The package in this repo can be installed from melpa like so, open file...
 
-go .doom.d/packages.el
+ .doom.d/packages.el
 
 add
 
 (package! js-react-redux-yasnippets)
 
-Confirm yasnippets is installed in doomemacs...
+Confirm installation in doomemacs, open M-x...
 
 SPC+:
 
@@ -52,7 +52,6 @@ You should see the following
 ```
 M-x js
 js-react-redux-yasnippets-toggle-semicolon
-...
 ...
 ```
 
