@@ -33,34 +33,32 @@ step 2 - install this pacakge
 
 The package in this repo can be installed from melpa like so.
 
-go to "M-x"... SPC + :
+go .doom.d/packages.el
 
-at the M-x prompt type "package-install"
+add
 
-M-x -> package-install. 
-
-look for ???
-
-After you've successfully installed latest versions of **yasnippet** and **js-react-redux-yasnippets** via melpa, the snippets should be available in all modes derived from js-mode
+(package! js-react-redux-yasnippets)
 
 Confirm yasnippets is installed in doomemacs...
 
-- go to M-x by pressing SPACEBAR + :
-- at the "M-x" prompt type yas
+SPC+:
+
+at the M-x prompt, type
+
+js
 
 You should see the following
 
 ```
-M-x yas
-yas-about
-yas-expand
-yas-minor-mode
+M-x js
+js-react-redux-yasnippets-toggle-semicolon
+...
 ...
 ```
-Doomemacs snippets location
-???
 
 **js-react-redux-yasnippets** will not register its snippets dir to yas-snippet-dirs automatically.
+
+go to .doom.d/config.el and add the following.
 
 ```
 (use-package js-react-redux-yasnippets
