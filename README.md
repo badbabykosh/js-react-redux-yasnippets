@@ -60,8 +60,10 @@ js-react-redux-yasnippets-toggle-semicolon
 go to .doom.d/config.el and add the following.
 
 ```
-(use-package js-react-redux-yasnippets
+(use-package! js-react-redux-yasnippets
     :after yasnippet ;; will not work if not adding this line
+    :after rjsx ;; this lazy loads this package untill the js major mode is loaded
+    :config
     )
 ```
 After adding :after **yasnippet** as above, **js-react-redux-yasnippets** works.
